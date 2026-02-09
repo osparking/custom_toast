@@ -1,0 +1,10 @@
+.custom-toast-container {
+  top: 100px !important;
+  max-width: 500px;
+}
+
+.custom-toast {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 16px 20px;
+}
