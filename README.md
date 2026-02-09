@@ -1,3 +1,6 @@
+# 토스트 위치 맞춤 개발
+기본적으로 토스트 표시는 중앙하단에 나타난다. 이를 중앙 상단, 특히, 위에서 약 200px 내려와서 표시되게 개발한다.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
