@@ -1,5 +1,12 @@
-.custom-toast-container {
+.toast-container-top {
   top: 80px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  max-width: 500px;
+}
+
+.toast-container-bottom {
+  bottom: 150px !important;  /* Changed from top to bottom */
   left: 50% !important;
   transform: translateX(-50%) !important;
   max-width: 500px;

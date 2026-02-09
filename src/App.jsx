@@ -1,12 +1,12 @@
 import "./App.css";
 import "./Toast.css";
-import ToastTester from "./ToastTester";
+import ToastControls from "./ToastControls";
 
 function App() {
   return (
-    <>
-      <ToastTester />
-    </>
+    <div className="App">
+      <ToastControls />
+    </div>
   );
 }
 
