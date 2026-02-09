@@ -16,7 +16,7 @@ function App() {
       <button
         variant="success"
         onClick={() => {
-          toast.success("상단 중간 아래로 200px 토스트예요.");
+          toast.success("상단 중간 아래로 80px 토스트예요.");
         }}
         style={{backgroundColor: "pink", fontWeight: "bold", fontSize: "20px"}}
       >
