@@ -2,15 +2,26 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import toast, { Toaster } from 'react-hot-toast'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <Toaster
+        position="top-center"  // Change position here
+        toastOptions={{
+          duration: 4000,
+          style: {
+            background: '#363636',
+            color: '#fff',
+          },
+        }}
+      />    
       <button 
         onClick={() => {
-          alert('안녕하세요! 이것은 토스트 알림입니다.')
+          toast.success('이것은 토스트 알림입니다!')
         }}
       >
         토스트 보기
